@@ -8,7 +8,7 @@ except ImportError:
     os.system("pip install getmac")
     from getmac import get_mac_address as gma
 
-pwd=input("Please Enter Your Gmail Password")
+pwd=input("Please Enter Your Gmail Password:-")
 ip_rng=[]
 get_mc=[]
 g='\033[32m'
@@ -24,7 +24,8 @@ def banner():
     print('  / _ \ | |_) | |_) | |_) | | | | ')
     print(' / ___ \|  _ <|  __/|  __/| |_| |')
     print('/_/   \_\_| \_\_|   |_|   |____/')
-    print(f'{b}Address Resolution Protocol Poisoning Detector By DarkkCoder')
+    print(f'{b}Address Resolution Protocol Poisoning Detector{w}')
+    print('v0.1 Cod3d By Gaurav')
 
 
 def ip_r():
